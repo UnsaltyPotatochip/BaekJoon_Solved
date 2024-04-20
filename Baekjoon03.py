@@ -3,7 +3,7 @@ N = int(input(""))
 tmp = input("")
 P = list(map(int, tmp.split()))
 
-# 각 사람이 돈을 인출하는데 걸리는 시간의 합의 최솟값 = 최소합
+# 각 사람이 돈을 인출하는데 걸리는 시간의 합의 최솟값
 def swap(front, second):
     buff = front
     front = second
