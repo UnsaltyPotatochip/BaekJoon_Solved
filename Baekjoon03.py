@@ -3,7 +3,10 @@ N = int(input(""))
 tmp = input("")
 P = list(map(int, tmp.split()))
 
-# 각 사람이 돈을 인출하는데 걸리는 시간의 합의 최솟값
+# 1초에 2천만번 연산한다고 가정, 제한시간은 1초, 데이터의 최대 크기가 1000이므로 빅-오 표기법에 의해
+# 20,000,000 * 1 > 1,000^2 이므로 어떤 정렬을 써도 괜찮다.
+
+# 버블정렬 사용
 def swap(front, second):
     buff = front
     front = second
