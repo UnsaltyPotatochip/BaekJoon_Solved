@@ -1,4 +1,4 @@
-// ¹éÁØ 2839 - ¼³ÅÁ ¹è´Ş
+// ë°±ì¤€ 2839 - ì„¤íƒ• ë°°ë‹¬
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
 #pragma warning(disable:4996)
@@ -17,7 +17,7 @@ int main(void) {
 			ans += 1;
 		}
 	}
-	// 0ÀÌ ¾Æ´Ò °æ¿ì
+	// 0ì´ ì•„ë‹ ê²½ìš°
 	if (N != 0) ans = -1;
 	printf("%d", ans);
 	return 0;
